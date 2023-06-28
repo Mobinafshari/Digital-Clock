@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    background: url(./albert-stoynov-suuJUYSn9no-unsplash.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 8px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 90px;
+    background:white;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px rgba(#D32F2F, 0.5);
+    
+}
+.clock .text{
+    height: 35px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-image: linear-gradient(red 1%,white 70%,green );
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
+.clock #ampm{
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #90A4AE;
+
+}
+#hour ,#minute ,#seconds{
+    color: #689F38;
+}
